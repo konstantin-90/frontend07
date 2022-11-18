@@ -1,0 +1,136 @@
+.fixed__link {   /*10*/
+    position: fixed;
+    display: block;
+    top: 70%;
+    right: 0;
+}
+
+.header,    /*10*/
+.nav__list,
+.tour__item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.header {   /*10*/
+    background-color:rgba(33, 116, 182, 0.75);
+}
+
+.logo__images { /*10*/
+    width: 15%;
+}
+
+.menu__link,    /*10*/
+.nav__link,
+.subnav__link,
+.nav__item {
+    text-decoration: none;
+    color: white;
+}
+
+.nav__list {    /*10*/
+    background-color: #397eb7;
+    font-size: 1.5rem;
+}
+
+.nav__item {    /*10*/
+    display: inline-block;
+}
+
+.nav__link {    /*10*/
+    position: relative;
+}
+
+.nav__link, /*10*/
+.subnav__link {
+    font-size: 1.6rem;
+}
+
+.nav__link:hover,   /*20*/
+.subnav__link:hover,
+.menu__link:hover {
+    text-decoration: underline;
+}
+
+.nav__item:hover .subnav {  /*30*/
+    display: block;
+}
+
+.subnav {   /*10*/
+    position: absolute;
+    display: none;
+    padding: 1%;
+    background-color: rgba(0, 74, 131, .88);
+}
+
+.submenu {  /*10*/
+    background-image: url(../images/beach.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title__main {  /*10*/
+    font-size: 3rem;
+    text-align: center;
+    padding: 2%;
+}
+
+.text__title {  /*10*/
+    font-size: 1.6rem;
+    padding-top: 1%;
+}
+
+.form { /*10*/
+    font-size: 1.2rem;
+    width: 28%;
+    text-align: center;
+    padding: 1%;
+    margin: 0 auto;
+    border-radius: 35px;
+    border: 2px solid rgb(2, 2, 2);
+    background: rgba(211, 189, 161, 0.8)
+}
+
+.title__secondary { /*10*/
+    font-size: 2rem;
+    text-align: center;
+    padding: 1%;
+}
+
+.text__secondary {  /*10*/
+    font-size: 1.7rem;
+    text-align: justify;
+    padding: 2%;
+    background: rgba(44, 139, 216, 0.993)
+}
+
+.tour__description {    /*10*/
+    text-indent: 32px;
+    text-align: justify;
+    padding: 2%;
+}
+
+.tour__item {   /*10*/
+    flex-wrap: nowrap;
+    padding: 4%;
+    background-color: #a7c9e6;
+}
+
+.tour__link,    /*10*/
+.tour__buy {
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: red;
+}
+
+.tour__link:hover,  /*20*/
+.tour__buy:hover {
+    text-decoration: underline;
+}
+
+.footer {   /*10*/
+    background-color: #2174b6;
+    text-align: center;
+    padding: 1%;
+}
