@@ -134,3 +134,14 @@
     text-align: center;
     padding: 1%;
 }
+
+.main {
+    padding-top: 3%;
+    text-align: center;
+}
+
+.greece__text {
+    text-indent: 3rem;
+    text-align: justify;
+    padding: 2%;
+}
